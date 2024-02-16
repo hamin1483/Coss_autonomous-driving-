@@ -1,0 +1,8 @@
+prefix=/home/anhamin/201N_ws/install
+
+Name: morai_2d_nav
+Description: Description of morai_2d_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find morai_tf)/launch/teleop.launch"/>
+    <include file="$(find morai_tf)/launch/navigation.launch"/>
+    <node pkg="morai_tf" type="navi_local_client.py" name="navigation_client"/>
+    <!-- <node pkg="morai" type="AutonomousDriving.py" name="pure_pursuit_controller"/> -->
+</launch>
